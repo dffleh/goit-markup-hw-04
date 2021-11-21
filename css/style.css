@@ -294,6 +294,7 @@ body {
 }
 
 .team-item {
+  box-shadow: 10px 10px 8px 2px rgba(0, 0, 0, 0.3);
   background-color: var(--background-origin);
 }
 
@@ -323,6 +324,7 @@ body {
 }
 
 .footer-link {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
