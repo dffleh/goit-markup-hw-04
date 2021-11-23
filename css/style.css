@@ -137,6 +137,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  fill: var(--main-text-color);
 }
 
 .header-contact:not(:last-child) {
@@ -152,10 +153,15 @@ body {
   padding-bottom: 24px;
 }
 
-.header-icon {
+.header-icon-mail {
   margin-right: 10px;
   width: 16px;
   height: 12px;
+}
+.header-icon-tel {
+  margin-right: 10px;
+  width: 10px;
+  height: 16px;
 }
 
 .carend {
