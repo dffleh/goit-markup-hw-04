@@ -8,6 +8,7 @@
   --background-footer: #2f303a;
   --background-team: #f5f4fa;
   --background-hero: #2f303a;
+  --icon-color: #afb1b8;
 
   --filter-gap: 30px;
 }
@@ -137,7 +138,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  fill: var(--main-text-color);
+  fill: var(--icon-color);
 }
 
 .header-contact:not(:last-child) {
@@ -370,13 +371,12 @@ body {
   height: 44px;
 
   border-radius: 50%;
-  fill: var(--main-text-color);
+  fill: var(--icon-color);
 }
 
 .team-icon {
   width: 20px;
   height: 20px;
-  /* fill: var(--main-text-color); */
 }
 
 .team-link-icon:hover,
@@ -412,7 +412,7 @@ body {
   border: 1px solid #afb1b8;
   width: 170px;
   height: 92px;
-  fill: var(--main-text-color);
+  fill: var(--icon-color);
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
