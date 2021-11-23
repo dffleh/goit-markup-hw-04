@@ -133,12 +133,13 @@ body {
 
 .header-mail,
 .header-tel {
+  display: flex;
+  align-items: center;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  fill: var(--icon-color);
 }
 
 .header-contact:not(:last-child) {
@@ -149,17 +150,18 @@ body {
 .header-link,
 .header-tel,
 .header-mail {
-  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
 .header-icon-mail {
+  color: currentColor;
   margin-right: 10px;
   width: 16px;
   height: 12px;
 }
 .header-icon-tel {
+  color: currentColor;
   margin-right: 10px;
   width: 10px;
   height: 16px;
@@ -174,7 +176,7 @@ body {
 .hero {
   padding: 200px 0px;
   max-width: 1600px;
-  margin: auto;
+  margin: 0 auto;
 
   background-color: var(--background-hero);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -490,6 +492,7 @@ body {
 }
 
 .footer-text {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -567,11 +570,18 @@ body {
   border-radius: 4px;
 }
 
-.filter-img-item:hover,
+/* .filter-img-item:hover,
 .filter-img-item:focus {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+} */
+
+.filter-link:focus,
+.filter-link:hover {
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
